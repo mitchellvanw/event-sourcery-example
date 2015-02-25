@@ -1,0 +1,13 @@
+{
+  "require": {
+    "rhumsaa/uuid": "2.8.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "2.1.*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mitchell\\EventSourceryExample\\": "src/"
+    }
+  }
+}
