@@ -9,5 +9,8 @@
     "psr-4": {
       "Mitchell\\EventSourceryExample\\": "src/"
     }
+  },
+  "config": {
+    "bin-dir": "bin"
   }
 }

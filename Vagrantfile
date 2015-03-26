@@ -33,10 +33,13 @@ Vagrant.configure("2") do |config|
             install_web: "yes",
             install_mailcatcher: "no",
             install_hhvm: "yes",
-            install_beanstalkd: "yes",
+            install_beanstalkd: "no",
             install_redis: "no",
             install_javascript_build_system: "no",
             install_r: "no",
+            bind_ip: "10.10.10.10",
+            install_eventstore: "yes",
+            eventstore_version: "3.0.3",
             r_packages: []
         }
     end

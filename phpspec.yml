@@ -1,0 +1,7 @@
+---
+suites:
+  event_sourcery_example_suite:
+    namespace: Mitchell\EventSourceryExample
+    psr4_prefix: Mitchell\EventSourceryExample
+
+formatter.name: pretty
